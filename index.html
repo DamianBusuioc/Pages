@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lead Page 1</title>
+<link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Join Our Community!</h1>
+    <p>Sign up now to get exclusive offers and updates.</p>
+    <form onsubmit="event.preventDefault(); alert('Thank you for signing up!'); this.reset();">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number (optional)" />
+      <button type="submit">Get Started</button>
+    </form>
+  </div>
+</body>
+</html>
